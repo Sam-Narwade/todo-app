@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.main-container {
+  background: coral;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  background: bisque;
+  height: 80vh;
+  width: 50vw;
+  border-radius: 10px;
+  box-shadow: 1px 2px 6px 1px rgb(85, 76, 76);
+  overflow: hidden;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  outline: none;
+  border: none;
+  width: 70%;
+  padding: 8px;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+
+h1 {
+  font-size: 25px;
+  padding: 10px;
+  background: rgb(155, 133, 133);
+  width: 100%;
+  color: white;
+  margin-bottom: 10px;
+}
+
+ol {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 20px;
+  margin-left: 2px;
+}
+
+li {
+  padding: 7px;
+  list-style: none;
+  margin-left: 1px;
+}
+
+.search-container {
+  display: flex;
+  width: 80%;
+}
+
+button {
+  outline: none;
+  border: none;
+  padding: 10px;
+  width: 20%;
+  border-radius: 5px;
+  margin-left: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: rgb(184, 183, 183);
+  color: white;
+}
+
+.todoList {
+  display: flex;
+  align-items: center;
+}
+
+img {
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+}
+
+img:hover {
+  transform: scaleZ(1.5);
+  transform: rotateX(45);
+}
